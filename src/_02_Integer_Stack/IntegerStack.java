@@ -2,20 +2,21 @@ package _02_Integer_Stack;
 
 public class IntegerStack {
 	//1. create a private array of integers
-	
+	private Integer[] Int;
 	//2. complete the constructor by initializing the member array
 	//   to a new array of length 0. This prevents null pointer exceptions.
 	public IntegerStack() {
+		Int = new Integer[0];
 	}
 	
 	//3. Complete the steps in the push method.
 	public void push(int v) {
 		//A. create a new array that is one element larger than the member array
-		
+		Integer[] Int2 = new Integer[v+1];
 		//B. set the last element of the new array equal to the integer passed into the method
-		
+		Int2[v+1] = Int2[1];
 		//C. iterate through the member array and copy all the elements into the new array
-		
+		Int[v] = Int2[v];
 		//D. set the member array equal to the new array.
 		
 	}
