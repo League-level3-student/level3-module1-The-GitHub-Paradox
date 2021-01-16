@@ -13,7 +13,7 @@ public class _01_IntroToHashMaps {
 		}
 		//3. Iterate through all the entries in your HashMap displaying the keys with their respective
 		//   square roots (values). Use the following format.
-		System.out.println("Square Roots of numbers from 0-499");
+		System.out.println("Square Roots of numbers from 0-499:");
 		for(Double d : roots.values()) {
 			System.out.println("The square Root of " + d*d + " is " + d);
 		}
